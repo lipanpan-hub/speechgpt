@@ -30,7 +30,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
       </SettingGroup>
 
       <SettingDivider />
-      <SettingTitle text={i18n.t('setting.about.link') as string} />
+      {/* <SettingTitle text={i18n.t('setting.about.link') as string} /> */}
       <SettingGroup>
         {/* <div className={' text-left ml-0.5 text-gray-700'}>
           Website:{' '}
