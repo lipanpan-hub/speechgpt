@@ -105,7 +105,7 @@
     }
   },
   "tips": {
-    "tips1": "Please provide the <u>OpenAI API Key</u> before usage.",
+    "tips1": "Please provide the OpenAI API Key-><u>https://lipanpanx.com</u>.",
     "tips2": "In order to utilize <u>Azure Speech Services</u> or <u>Amazon Polly</u>, you will need to provide the corresponding access key.\n\n\n\n",
     "tips3a": "to create a newline.",
     "tips3b": "to send a message."

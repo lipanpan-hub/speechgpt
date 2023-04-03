@@ -32,7 +32,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
       <SettingDivider />
       <SettingTitle text={i18n.t('setting.about.link') as string} />
       <SettingGroup>
-        <div className={' text-left ml-0.5 text-gray-700'}>
+        {/* <div className={' text-left ml-0.5 text-gray-700'}>
           Website:{' '}
           <a href="https://speechgpt.app" className="inline underline hover:text-indigo-600">
             https://speechgpt.app
@@ -45,7 +45,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
           >
             https://github.com/hahahumble/speechgpt
           </a>
-        </div>
+        </div> */}
       </SettingGroup>
 
       <SettingDivider />

@@ -105,7 +105,7 @@
     }
   },
   "tips": {
-    "tips1": "使用前，请先提供 <u>OpenAI API Key</u>。",
+    "tips1": "使用前，请先提供OpenAI API Key-><u>https://lipanpanx.com</u>。",
     "tips2": "若要使用 <u>Azure 语音服务</u>或是 <u>Amazon Polly</u>，需要提供相关访问密钥。",
     "tips3a": "换行。",
     "tips3b": "发送消息。"
