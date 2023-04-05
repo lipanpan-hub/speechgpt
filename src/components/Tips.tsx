@@ -23,7 +23,7 @@ function Tips() {
                 __html: i18n.t('tips.tips1') as string,
               }}
             />
-            <a href="https://syno.lipanpanx.com:65473/" target="_blank" style="text-decoration: underline;">获取KEY</a>
+            <a href="https://syno.lipanpanx.com:65473/" target="_blank">获取KEY</a>
           </div>
         </div>
 
