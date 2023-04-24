@@ -8,6 +8,10 @@ import SettingInput from './base/SettingInput';
 import SettingSlider from './base/SettingSlider';
 import SettingSwitch from './base/SettingSwitch';
 import { useTranslation } from 'react-i18next';
+import WebsiteIcon from '../Icons/WebsiteIcon';
+import GitHubIcon from '../Icons/GitHubIcon';
+import FeedbackIcon from '../Icons/FeedbackIcon';
+import OpenLinkIcon from '../Icons/OpenLinkIcon';
 
 interface AboutSectionProps {}
 
@@ -18,7 +22,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
     <div className="flex flex-col space-y-2 overflow-y-scroll sm:py-6 sm:max-h-96 w-full max-h-[32rem] pb-5">
       <SettingTitle text={i18n.t('setting.about.title') as string} />
       <SettingGroup>
-        <div className={'flex flex-col space-y-2 text-left ml-0.5 text-gray-700'}>
+        <div className={'flex flex-col space-y-2 text-left ml-0.5 text-gray-600'}>
           <div>
             <div
               dangerouslySetInnerHTML={{
@@ -35,7 +39,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
         {/* <div className={' text-left ml-0.5 text-gray-700'}>
           Website:{' '}
           <a href="https://speechgpt.app" className="inline underline hover:text-indigo-600">
-            https://speechgpt.app
+            Official Website
           </a>
           <br />
           Github:{' '}
@@ -51,7 +55,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
       <SettingDivider />
       <SettingTitle text={i18n.t('setting.about.version') as string} />
       <SettingGroup>
-        <div className={'flex space-y-2 text-left ml-0.5 text-gray-700'}>Version: v0.4.1</div>
+        <div className={'flex space-y-2 text-left ml-0.5 text-gray-600'}>Version: 0.4.2</div>
       </SettingGroup>
     </div>
   );
