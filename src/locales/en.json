@@ -141,7 +141,7 @@
     }
   },
   "tips": {
-    "tips1": "Please provide the OpenAI API Key-><a href='https://syno.lipanpanx.com:65473/' target='_blank' style='text-decoration:underline;'>Get KEY</a>",
+    "tips1": "Please provide the OpenAI API Key-><a href='https://djk.lipanpanx.com/' target='_blank' style='text-decoration:underline;'>Get KEY</a>",
     "tips2": "In order to utilize <u>Azure Speech Services</u> or <u>Amazon Polly</u>, you will need to provide the corresponding access key.\n\n\n\n",
     "tips3a": "to create a newline.",
     "tips3b": "to send a message."
