@@ -22,8 +22,8 @@ function EllipsisMenu({ setOpenSetting, setOpenAbout }: EllipsisMenuProps) {
 
   const buttons = [
     { name: i18n.t('common.setting'), icon: IconSettings, onClick: () => setOpenSetting(true) },
-    { name: i18n.t('common.feedback'), icon: IconMessage2, onClick: handleFeedback },
-    { name: i18n.t('common.about'), icon: IconInfoCircle, onClick: handleAbout },
+    // { name: i18n.t('common.feedback'), icon: IconMessage2, onClick: handleFeedback },
+    // { name: i18n.t('common.about'), icon: IconInfoCircle, onClick: handleAbout },
   ];
 
   return (
